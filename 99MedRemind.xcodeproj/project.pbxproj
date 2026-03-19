@@ -26,6 +26,11 @@
 		74214EAF2F640B6300338F5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74214E952F640B6300338F5F /* Assets.xcassets */; };
 		74214EB12F640B6300338F5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74214E992F640B6300338F5F /* LaunchScreen.storyboard */; };
 		74214EB22F640B6300338F5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74214E9B2F640B6300338F5F /* Main.storyboard */; };
+		746C16822F6BE79F00F44B30 /* PrivacyWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746C167E2F6BE79F00F44B30 /* PrivacyWebView.swift */; };
+		746C16832F6BE79F00F44B30 /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746C167D2F6BE79F00F44B30 /* PersistenceManager.swift */; };
+		746C16842F6BE79F00F44B30 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746C167C2F6BE79F00F44B30 /* AppRouter.swift */; };
+		746C16852F6BE79F00F44B30 /* StartMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746C16802F6BE79F00F44B30 /* StartMainView.swift */; };
+		746C16862F6BE79F00F44B30 /* SaveService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746C167F2F6BE79F00F44B30 /* SaveService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +56,11 @@
 		74214E9A2F640B6300338F5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		74214E9C2F640B6300338F5F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		74214E9D2F640B6300338F5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		746C167C2F6BE79F00F44B30 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		746C167D2F6BE79F00F44B30 /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
+		746C167E2F6BE79F00F44B30 /* PrivacyWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyWebView.swift; sourceTree = "<group>"; };
+		746C167F2F6BE79F00F44B30 /* SaveService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveService.swift; sourceTree = "<group>"; };
+		746C16802F6BE79F00F44B30 /* StartMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartMainView.swift; sourceTree = "<group>"; };
 		74C86E562F5F360600834BF6 /* 99MedRemind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 99MedRemind.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFE1003DAA023CA9B42F6D8C /* Pods-99MedRemind.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-99MedRemind.release.xcconfig"; path = "Target Support Files/Pods-99MedRemind/Pods-99MedRemind.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -117,6 +127,7 @@
 				74214E902F640B6300338F5F /* SettingsView.swift */,
 				74214E912F640B6300338F5F /* StatsView.swift */,
 				74214E922F640B6300338F5F /* TodayView.swift */,
+				746C16812F6BE79F00F44B30 /* Router */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -139,6 +150,18 @@
 				74214E9D2F640B6300338F5F /* ViewController.swift */,
 			);
 			path = 99MedRemind;
+			sourceTree = "<group>";
+		};
+		746C16812F6BE79F00F44B30 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				746C167C2F6BE79F00F44B30 /* AppRouter.swift */,
+				746C167D2F6BE79F00F44B30 /* PersistenceManager.swift */,
+				746C167E2F6BE79F00F44B30 /* PrivacyWebView.swift */,
+				746C167F2F6BE79F00F44B30 /* SaveService.swift */,
+				746C16802F6BE79F00F44B30 /* StartMainView.swift */,
+			);
+			path = Router;
 			sourceTree = "<group>";
 		};
 		74C86E4D2F5F360600834BF6 = {
@@ -278,6 +301,11 @@
 				74214EA12F640B6300338F5F /* Formatting.swift in Sources */,
 				74214EA22F640B6300338F5F /* MedRemindViewModel.swift in Sources */,
 				74214EA32F640B6300338F5F /* Components.swift in Sources */,
+				746C16822F6BE79F00F44B30 /* PrivacyWebView.swift in Sources */,
+				746C16832F6BE79F00F44B30 /* PersistenceManager.swift in Sources */,
+				746C16842F6BE79F00F44B30 /* AppRouter.swift in Sources */,
+				746C16852F6BE79F00F44B30 /* StartMainView.swift in Sources */,
+				746C16862F6BE79F00F44B30 /* SaveService.swift in Sources */,
 				74214EA42F640B6300338F5F /* HistoryView.swift in Sources */,
 				74214EA52F640B6300338F5F /* HomeView.swift in Sources */,
 				74214EA62F640B6300338F5F /* MedicationsView.swift in Sources */,
@@ -335,7 +363,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.fed.m4dr7m9nd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -373,7 +401,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.fed.m4dr7m9nd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
